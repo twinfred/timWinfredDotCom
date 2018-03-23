@@ -1,0 +1,93 @@
+#wrapper {
+    width: 970px;
+    margin: 0px auto;
+}
+/* FONTS */
+h1, h2, h3, h4, h5, h6, p, span, a, li {
+    font-family: "Open Sans", Arial, Helvetica, sans-serif;
+}
+p, span, a, li {
+    font-size: 14px;
+}
+/* HEADER CONTENT */
+#header {
+    height: 160px;
+    background-image: linear-gradient(white 50%, #dee0e0);
+    /* background-color: #dee0e0; */
+    padding: 10px;
+    box-sizing: border-box;
+    border-bottom: 3px solid #66b9bf;
+}
+#site-logo {
+    width: 18%;
+    margin: 4px 462px 4px 20px;
+}
+    /* SOCIAL IMAGES */
+#header-right {
+    width: 30%;
+}
+#contact {
+    margin-left: 98px;
+}
+.social-img {
+    width: 30px;
+    margin-right: 4px;
+    margin-top: 5px;
+}
+.social-img:hover {
+    -webkit-animation:spin 4s linear infinite;
+    -moz-animation:spin 4s linear infinite;
+    animation:spin 4s linear infinite;
+}
+@-moz-keyframes spin { 100% { -moz-transform: rotate(360deg); } }
+@-webkit-keyframes spin { 100% { -webkit-transform: rotate(360deg); } }
+@keyframes spin { 100% { -webkit-transform: rotate(360deg); transform:rotate(360deg); } }
+    /* SEARCH BAR */
+#search-box {
+    margin-top: 12px;
+    padding: 6px;
+    background-color: #bbb;
+    height: 39px;
+}
+#search-bar {
+    width: 78%;
+    height: 31px;
+    border-radius: 3px;
+}
+#search-button {
+    width: 17%;
+    height: 36px;
+    margin-left: 2px;
+    background-image: url("img/magnifying-glass.png");
+    background-repeat: no-repeat;
+    background-size: 60%;
+    background-color: #eeaa7b;
+    background-position: center;
+    box-shadow: 2px 2px 2px #4d4d4d;
+    border: none;
+    border-radius: 4px;
+}
+#search-button:hover {
+    border: 1px outset #bbb;
+}
+/* TOP MENU */
+#top-menu {
+    margin: 7px 0px 3px 0px;
+    text-align: right;
+}
+#top-menu li {
+    padding: 10px 25px 12px 25px;
+    color: #e37222;
+    font-weight: bold;
+    font-size: 16px;
+}
+#top-menu li:hover {
+    color: white;
+    background-color: #bbb;
+}
+.vert-top {
+    vertical-align: top;
+}
+.inBlock {
+    display: inline-block;
+}
